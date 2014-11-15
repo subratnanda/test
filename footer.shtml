@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Comapatible" content="IE=edge">
+	<meta name="description" content="Udacity Nanodegree, Frontend Web Developer, Project2, Anjali Nanda">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Anjali Nanda, Project2, Nanodegree</title>
+	<link rel="stylesheet" href="normalize.css"><!--src="normalize..." so that website will work same across all the browsers -->
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<link rel ="stylesheet" href="main.css">
+	<link href='http://fonts.googleapis.com/css?family=Noticia+Text' rel='stylesheet' type='text/css'>
+	<link rel="import" href="footer.html">
+</head>
+
+<body>
+	<div id="bottomContainer">
+		<div id="theFooter">
+			<div class="container">
+				<div class="row text-center">
+					<div class="col-sm-3 col-xs-6">
+						<i class="glyphicon glyphicon-envelope"></i>
+						<h4>Contact:</h4>
+						<h6>anjalisubrat@gmail.com </h6>
+					</div>
+					<div class="col-sm-3 col-xs-6">
+						<i class="glyphicon glyphicon-phone-alt"> </i>
+						<h4>Call:</h4>
+						<h6>T:518-253-4742</h6>
+					</div>
+					<div class="col-sm-3 col-xs-6">
+						<i class="glyphicon glyphicon-plus-sign"> </i>
+						<h6>Follow me</h6>
+					</div>
+					<div class="col-sm-3 col-xs-6">
+						<i class="glyphicon glyphicon-copyright-mark"> </i>
+						<h6>2014 Anjali Nanda</h6>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
