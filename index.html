@@ -48,8 +48,13 @@
        <!--#include file="footer.html" -->
         </div>  
         <p> through js</p>
+        
         <div id="includedContent"></div> 
-
+	<script type="text/javascript">
+		$(function(){
+		$("#includedContent").load("footer.html"); 
+		});
+	</script>
 
 </body>
 </html>
