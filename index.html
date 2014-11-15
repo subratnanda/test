@@ -11,11 +11,7 @@
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
-	 <script> 
-    $(function(){
-      $("#includedContent").load("footer.html"); 
-    });
-    </script> 
+	 
 	
 	
 </head>
@@ -52,8 +48,14 @@
        <p> HTML added </p>
        <!--#include file="footer.html" -->
      </div>  
-        <p> haeopi</p>
-        <div id="includedContent"></div> 
+        <p> through js</p>
+        <div id="includedContent"></div>
+
+        <script> 
+    $(function(){
+      $("#includedContent").load("footer.html"); 
+    });
+    </script>  
 
 
 </body>
