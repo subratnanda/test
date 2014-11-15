@@ -6,11 +6,12 @@
 	<title>Anjali Nanda, Mockup to Website, Nanodegree</title>
 	<link rel="stylesheet" href="normalize.css"><!-- src="normalize..." so that website will work same across all the browsers -->
 	<link rel="stylesheet" href="bootstrap.min.css">
-	<link rel ="stylesheet" href="mystyle.css">
+	<link rel ="stylesheet" href="main.css">
 	<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Lato:300'>
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+	 
 	
 	
 </head>
@@ -36,25 +37,34 @@
 			</article>
 			<p>
 				<a href="http://jigsaw.w3.org/css-validator/check/referer"><img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue"alt="Valid CSS!" /></a>
-			</p>
-        </section>
-         	
-        
+			</p>   
+			<div class="footer">	
+					<div id="theFooter">
+						<div class="container">
+							<div class="row text-center">
+								<div class="col-sm-3 col-xs-6">
+									<i class="glyphicon glyphicon-envelope"></i>
+										<div id="includedContent"></div>
+											<p> SHTML </p>
+		       								<!--#include file="footer.shtml" -->
+		       									<p> HTML added </p>
+		       								<!--#include file="footer.html" -->
+								</div>
+							</div>
+						</div>
+					</div>	
+			</div>
+			<div>
+			
+		    </div>  
+		        <p> through js</p>        
 	</div>
-	<div>
-		<p> SHTML </p>
-       <!--#include file="footer.shtml" -->
-       <p> HTML added </p>
-       <!--#include file="footer.html" -->
-        </div>  
-        <p> through js</p>
-        
-        <div id="includedContent"></div> 
-	<script type="text/javascript">
-		$(function(){
-		$("#includedContent").load("footer.html"); 
-		});
-	</script>
 
+    <script> 
+    $(function(){
+      $("#includedContent").load("footer.html"); 
+    });
+    </script> 
+    
 </body>
 </html>
